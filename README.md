@@ -25,6 +25,7 @@ __Hybrid Recommendation System__
 
 * Data is taken from MovieLens
 * You need to download dataset from this [link](https://drive.google.com/open?id=1G8VGjz_nP4D12lsGw48hlBQbwkm1fnUa)
+* Be sure to have "input_data" folder in your repository
 
 ### Types of dataset
 
