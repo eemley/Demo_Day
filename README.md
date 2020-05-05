@@ -57,4 +57,3 @@ Make sure to install all of these dependencies
  textblob          $ conda install -c conda-forge textblob 
 ```
 ---------------------------------
-## 🎧 Spotify Recommendation System
