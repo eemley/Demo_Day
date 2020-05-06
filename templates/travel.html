@@ -1,0 +1,35 @@
+<!doctype html>
+ <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COVID-19: Care Package</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" href="{{url_for('static',filename='imq/favicon.png')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    <script src="{{url_for('static',filename='js/vendor/jquery.smoothState.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
+</head>
+
+<body>
+
+<div class="container" style="margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
+<font size="4.5">
+Being told you can’t go anywhere is a surefire way to make anyone want to leave. And have you seen those airline prices? It doesn’t help that vacation season is just on the horizon. More of us Americans travel in the summer months than any other time of the year.
+<br><br>
+While we may not be able to go out and see the world right now, it won’t be that way forever. In the meantime, national parks and museums all around the world have virtual tours right now. You can explore places you might never have considered before from the comfort of your own home. If you need some ideas to get started, check out the map below!
+</font>
+<br><br>
+<center> 
+<div id="map"><iframe id="serviceFrameSend" src="{{url_for('static',filename='img/index.html')}}" width="75%" height="75%"  frameborder="0"></iframe></div></center>
+ <br>
+</div>
+</body>
+</html>
